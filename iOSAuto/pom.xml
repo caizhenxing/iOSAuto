@@ -42,6 +42,6 @@
 
 	</dependencies>
 	<groupId>stray</groupId>
-	<artifactId>AndroidAuto</artifactId>
+	<artifactId>iOSAuto</artifactId>
 	<version>0.0.1</version>
 </project>
