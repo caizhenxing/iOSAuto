@@ -8,5 +8,5 @@ public class GetAppStrings {
 	public static String run(Object params) {
 		return App.Driver.getAppStrings();
 	}
-	
+
 }

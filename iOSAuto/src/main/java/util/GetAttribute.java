@@ -9,9 +9,9 @@ import org.openqa.selenium.WebElement;
 
 public class GetAttribute {
 
-	public static String run(HashMap<String, String> params){
-		WebElement element = Elements.find(params,App.Driver); 
-        return element.getAttribute(params.get("Attribute Name"));
+	public static String run(HashMap<String, String> params) {
+		WebElement element = Elements.find(params, App.Driver);
+		return element.getAttribute(params.get("Attribute Name"));
 	}
-	
+
 }

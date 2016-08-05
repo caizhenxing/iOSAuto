@@ -1,7 +1,6 @@
 package util;
 
 import common.Elements;
-import io.appium.java_client.android.AndroidDriver;
 import util.App;
 
 import java.util.HashMap;
@@ -12,12 +11,6 @@ import org.testng.Assert;
 
 public class Verifies {
 	// Assert.assertEquals(actual, expected);
-	// Current Activity
-	public static void activity(HashMap<String, String> params) {
-		Assert.assertEquals(((AndroidDriver) App.Driver).currentActivity(), params.get("Activity"));
-        System.out.println("Current Activity is " + params.get("Activity"));
-	}
-
 	// Text
 	public static void text(HashMap<String, String> params) {
 		WebElement element = Elements.find(params, App.Driver);
